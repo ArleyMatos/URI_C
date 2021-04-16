@@ -1,0 +1,18 @@
+#include <stdio.h>
+ 
+int main() {
+   double A, B, C, ATR, AC, AT, AQ, AR, pi;
+    scanf("%lf %lf %lf", &A, &B, &C);
+      pi = 3.14159;
+      ATR = (A*C)/2;
+      AC = pi*(C*C);
+      AT = ((A+B)*C)/2;
+      AQ = B*B;
+      AR = A*B;
+    printf("TRIANGULO: %.3lf\n", ATR); 
+    printf("CIRCULO: %.3lf\n", AC);
+    printf("TRAPEZIO: %.3lf\n", AT);
+    printf("QUADRADO: %.3lf\n", AQ);
+    printf("RETANGULO: %.3lf\n", AR);
+    return 0;
+}
